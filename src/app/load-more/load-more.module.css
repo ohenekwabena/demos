@@ -1,0 +1,28 @@
+.wrapper{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.load_button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    text-align: left;
+    font: inherit;
+    color: black;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: hsl(45, 29%, 97%);
+}
+
+.load_button:focus {
+      outline-offset: 2px;
+    }
+
+.load_button:not(:focus-visible) {
+      outline: none;
+    }

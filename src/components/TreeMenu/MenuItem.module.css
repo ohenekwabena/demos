@@ -1,0 +1,24 @@
+.wrapper{
+    margin-left: 20px;
+}
+
+.wrapper p{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.tree_button{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.tree_button svg{
+    transform: translateY(-1.5px);
+    margin-left: 5px;
+    color: black;
+}
